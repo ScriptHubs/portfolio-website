@@ -23,9 +23,6 @@ export default function navbar() {
           <Link href="/resume">Resume</Link>
         </li>
         <li>
-          <Link href="/service">Services</Link>
-        </li>
-        <li>
           <Link href="/portfolio">Portfolio</Link>
         </li>
         <li>
@@ -34,6 +31,21 @@ export default function navbar() {
       </ul>
       <i className="bi bi-list mobile-nav-toggle" />
     </nav>
+    <div className="header-social-links">
+      <a href="#" className="twitter">Hello
+        <i className="bi bi-twitter" />
+      </a>
+      <a href="#" className="facebook">
+        <i className="bi bi-facebook" />
+      </a>
+      <a href="#" className="instagram">
+        <i className="bi bi-instagram" />
+      </a>
+      <a href="#" className="linkedin">
+        <i className="bi bi-linkedin" />
+      </a>
+    </div>
+
     {/* .navbar */}
   </div>
 </header>

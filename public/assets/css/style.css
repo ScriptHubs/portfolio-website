@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(9, 9, 9, 0.9);
+  background: rgba(9, 9, 9, 0.411);
   transition: 0.3s;
   z-index: 999;
 }
@@ -989,7 +989,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: var(--secondary-color);
+  color: var(--third-color);
   float: left;
   width: 44px;
   height: 44px;
